@@ -33,7 +33,7 @@ typedef enum Direction{
 Cell createCell(int x, int y, int id);
 void initCells(Cell *cells);
 void drawCells(Cell *cells);
-Ant createAnt();
+Ant createAnt(Cell *cells);
 void moveAnt(Ant *ant, Cell *cells);
 
 int main(){ 
